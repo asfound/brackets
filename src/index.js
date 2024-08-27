@@ -19,6 +19,9 @@ module.exports = function check(str, bracketsConfig) {
   return given.length === 0;
 };
 
+
+//this task can be solved much more effective as a stack!
+
 // console.log(
 //   check("[]()", [
 //     ["(", ")"],
